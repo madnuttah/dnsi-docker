@@ -63,5 +63,5 @@ jobs:
           sbom: ${{ github.event_name != 'pull_request' }}
           provenance: ${{ github.event_name != 'pull_request' }}
           tags: |
-            ${{ env.DOCKERHUB_SLUG }}:${{ env.DNSI_BUILDENV_VERSION }}      
+            ${{ env.DOCKERHUB_SLUG }}:${{ needs.buildvars.outputs.DNSI_BUILDENV_VERSION }}      
             ${{ env.DOCKERHUB_SLUG }}:latest 
