@@ -5,9 +5,9 @@
 > [!NOTE]
 > ***You can run dnsi using the following command:***
 > 
-> `docker run -ti madnuttah/dnsi-buildenv dnsi COMMAND PARAMETER`
+> `docker run -ti madnuttah/dnsi dnsi COMMAND PARAMETER`
 > 
-> Example: `docker run -ti madnuttah/dnsi-buildenv dnsi query nlnetlabs.nl`
+> Example: `docker run -ti madnuttah/dnsi dnsi query nlnetlabs.nl`
 
 For more information about dnsi, visit the NLnet Labs [dnsi GitHub page](https://github.com/NLnetLabs/dnsi).
  
@@ -22,7 +22,7 @@ For more information about dnsi, visit the NLnet Labs [dnsi GitHub page](https:/
 ### License
 
 Unless otherwise specified, all code is released under the MIT license.
-See the [`LICENSE`](https://github.com/madnuttah/dnsi-buildenv/blob/main/LICENSE) for details.
+See the [`LICENSE`](https://github.com/madnuttah/dnsi-docker/blob/main/LICENSE) for details.
 
 ### Licenses for other components
 
@@ -35,4 +35,4 @@ Please note that this is a work of private contributors and we're neither affili
 
 ## Supporting our mission
 
-In case you would like to donate money, please rather spend it on the upstream projects this image relies on.
+In case you would like to donate money, please rather spend it on the upstream projects this image relies on. ❤️
