@@ -1,4 +1,4 @@
-name: Manually Build distroless dnsi BuildEnv Doxker Image
+name: Manually Build distroless dnsi BuildEnv Docker Image
 
 on:
   workflow_dispatch:
