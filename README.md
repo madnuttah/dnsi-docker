@@ -1,9 +1,9 @@
-# `dnsi Build Environment`
+# `dnsi Docker`
 
-**Distroless dnsi build environment soon to be used by [`madnuttah/unbound-docker`](https://github.com/madnuttah/unbound-docker/).**
+**Distroless dnsi Docker image, soon to be used by [`madnuttah/unbound-docker`](https://github.com/madnuttah/unbound-docker/).**
 
 > [!NOTE]
-> ***Even this image is intended as a build environment, you can run dnsi using the following command:***
+> ***You can run dnsi using the following command:***
 > 
 > `docker run -ti madnuttah/dnsi-buildenv dnsi COMMAND PARAMETER`
 > 
