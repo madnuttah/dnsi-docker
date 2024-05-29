@@ -8,8 +8,9 @@ RUN set -xe; \
     curl \
     binutils \
     cargo && \
-    cargo install --locked dnsi && \
-    mkdir -p /usr/local/dnsi && \
+    cargo install --locked dnsi
+
+RUN mkdir -p /usr/local/dnsi && \
     mv /root/.cargo/bin/dnsi /usr/local/dnsi && \
     strip --strip-all /usr/local/dnsi/dnsi
     
