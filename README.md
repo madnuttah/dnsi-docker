@@ -7,7 +7,7 @@
 > 
 > `docker run -ti madnuttah/dnsi dnsi COMMAND PARAMETER`
 > 
-> Example: `docker run -ti madnuttah/dnsi dnsi query nlnetlabs.nl`
+> Example: `docker run --rm madnuttah/dnsi dnsi query nlnetlabs.nl`
 
 For more information about dnsi, visit the NLnet Labs [dnsi GitHub page](https://github.com/NLnetLabs/dnsi).
  
