@@ -5,7 +5,7 @@
 > [!NOTE]
 > ***You can run dnsi using the following command:***
 > 
-> `docker run -ti madnuttah/dnsi dnsi COMMAND PARAMETER`
+> `docker run --rm madnuttah/dnsi dnsi COMMAND PARAMETER`
 > 
 > Example: `docker run --rm madnuttah/dnsi dnsi query nlnetlabs.nl`
 
