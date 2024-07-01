@@ -51,8 +51,8 @@ jobs:
         env:
           DOCKERHUB_SLUG: "madnuttah/dnsi"
         with:
-          platforms: linux/386,linux/arm/v6,linux/arm/v7,linux/arm64,linux/amd64
-#          platforms: linux/386,linux/amd64
+#          platforms: linux/386,linux/arm/v6,linux/arm/v7,linux/arm64,linux/amd64
+          platforms: linux/386,linux/amd64
           builder: ${{ steps.buildx.outputs.name }}
           build-args: |
             DOCKERHUB_SLUG=${{ env.DOCKERHUB_SLUG }} 
